@@ -153,9 +153,10 @@ x = x^2
 x = sqrt(x)
 
 ## Función f(x) = x^3 - (3^x)* sen(x)
-f = function(x) {
-  x^3 - (3^x) * sin(x)
-}
+f = function(x) 
+    {
+      x^3 - (3^x) * sin(x)
+    }
 
 f(4) # 4^3 - 3^4 * sin(4)
 f(5)
@@ -167,10 +168,10 @@ suma1 <- function(t){
 suma1(6)
 suma1(-5)
 
-product <- function(x, y){
+producto <- function(x, y){
   x*y
 }
-product(5,7)
+producto(5,7)
 
 g <- function(x,y,z) {
   exp(x^2 + y^2) * sin(z)
@@ -188,12 +189,13 @@ suma5 <- function(numero){
 
 suma5(3)
 
+#Listar objetos del entorno
 ls()
-
+#Eliminar uno de los objetos del entorno
 rm(product)
 
 ls()
-
+# Eliminar todos los objetos del entorno
 rm(list = ls())
 
 class(3+2i)
