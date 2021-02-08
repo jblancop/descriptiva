@@ -3,6 +3,7 @@ title: "Documentación de Texto"
 author: "Curso de Estadística Descriptiva"
 date: "21/12/2018"
 output:
+  pdf_document: default
   html_document:
     df_print: paged
 ---
@@ -17,15 +18,9 @@ knitr::opts_chunk$set(echo = TRUE)
 
 ### Título 3
 
-#### Título 4
-
-##### Título 5
-
-###### Título 6
-
 Esto es un texto llano. Podemos escribir sin ningún problema todo el texto que queramos para acompañar a tanto el código en `R` como las fórmulas en \LaTeX. 
 
-Esto sería una nueva línea de texto. Fijaros que para que separe los párrafos necesitamos siempre almenos un doble intro.
+Esto sería una nueva línea de texto. Fijaros que para que separe los párrafos necesitamos siempre al menos un doble intro.
 
 Para colocar *cursiva* podemos usar un asterisco: *esto sería un texto en cursiva* o bien usar una sola barra baja _esto tambien es cursiva_.
 
